@@ -89,6 +89,12 @@ li {
   justify-content: space-around;
 }
 
+@media (max-width: 600px) {
+  #nav-links {
+    flex-direction: column;
+  }
+}
+
 .gallery {
   display: flex;
   justify-items: space-between;
