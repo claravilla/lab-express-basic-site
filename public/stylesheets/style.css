@@ -63,6 +63,30 @@ li {
   text-decoration: none;
   font-size: 1.5rem;
 }
+.gallery {
+  display: flex;
+  justify-items: space-between;
+  align-items: flex-start;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.card img {
+  border-radius: 50%;
+  border: 2px solid #112031;
+  width: 300px;
+  margin: 30px;
+}
+
+.card p {
+  text-align: center;
+}
 
 #intro {
   text-align: center;
