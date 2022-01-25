@@ -1,0 +1,61 @@
+body {
+  background-color: #d4ecdd;
+  font-family: "Source Serif 4", sans-serif;
+}
+
+h1 {
+  font-family: "Tangerine", cursive;
+  color: #112031;
+  font-size: 9rem;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #152d35;
+}
+
+h3 {
+  font-size: 3rem;
+  color: #345b63;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 200px;
+}
+
+.home-container img {
+  border-radius: 50%;
+  border: 5px solid #112031;
+}
+
+.paragraph {
+  padding-bottom: 30px;
+  border-bottom: 2px solid #112031;
+}
+
+.link {
+  padding: 20px 40px;
+  margin: 20px;
+  background-color: #345b63;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+#intro {
+  text-align: center;
+}
+
+#nav-links {
+  display: flex;
+  justify-content: space-around;
+}
